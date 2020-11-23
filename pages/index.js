@@ -8,6 +8,11 @@ export default function Home() {
       </Link>
       <br />
       <br />
+      <Link href="/static-client-generation">
+        <a>Static Client Generation</a>
+      </Link>
+      <br />
+      <br />
       <Link href="/blueprint-components">
         <a>BluePrint Component Library Demo</a>
       </Link>

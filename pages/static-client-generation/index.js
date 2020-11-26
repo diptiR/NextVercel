@@ -8,7 +8,7 @@ function ShoppingCart() {
   if (error) return <div>failed to load</div>;
   console.log(data);
   if (!data) return <div>loading...</div>;
-  return <div>Data: {JSON.stringify(data.data)}</div>;
+  return <div>Data: {data.data[0].author[0]}</div>;
 }
 
 export default function StaticClientGeneration(){

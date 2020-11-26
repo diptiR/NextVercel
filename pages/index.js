@@ -29,7 +29,12 @@ export default function Home() {
       <br />
       <br />
       <Link href="/cms-authentication">
-        <a>Authentication Example</a>
+        <a>Static Generation with Revalidate</a>
+      </Link>
+      <br />
+      <br />
+      <Link href="/api/preview?slug=albums">
+        <a>Preview Mode Example</a>
       </Link>
     </div>
   )

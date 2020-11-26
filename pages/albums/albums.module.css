@@ -1,0 +1,8 @@
+.alert{
+    padding-left: 20px;
+}
+.thumbnails {
+    padding: 20px;
+    width: 200px;
+    display:inline-block
+}

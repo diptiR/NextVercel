@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import "@ftdr/blueprint-core/assets/css/default-theme.css";
+//import "@ftdr/blueprint-core/assets/css/default-theme.css";
 
 
 function MyApp({ Component, pageProps }) {

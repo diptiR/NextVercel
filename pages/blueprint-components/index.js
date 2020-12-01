@@ -1,6 +1,6 @@
 import React from "react";
-import { App, IconMail, IconPhone } from "@ftdr/blueprint-components-react";
-import FdtrAccordion from '../../components/accordion/accordion'
+//import { App, IconMail, IconPhone } from "@ftdr/blueprint-components-react";
+//import FdtrAccordion from '../../components/accordion/accordion'
 
 export default function Example() {
     const navMenuItems = React.useMemo(
@@ -98,41 +98,6 @@ export default function Example() {
     
       const signOutLinkOptions = React.useMemo(() => ({ label: "Sign Out", onClick: () => {} }), []);
   return (
-    <App
-    appSettings={{
-        language: "en_US",
-        textTemplatesByLanguage: {
-          en_US: {
-            DIALOG_HEADER: "Attention Everyone!",
-            BDS_MESSAGE_INFO: "Information",
-            BDS_BREADCRUMBS_BACK_BUTTON_LABEL: "Back",
-          },
-          es_US: {
-            DIALOG_HEADER: "Attention Someone!",
-            BDS_MESSAGE_INFO: "Information!!!!",
-            BDS_BREADCRUMBS_BACK_BUTTON_LABEL: "Go Back",
-          },
-        },
-        notificationsAutoCloseDelay: 2000,
-        notificationsWidth: 600,
-        tenant: "AHS",
-        custom: {
-          foo: "bar",
-        }
-      }} showHeader headerOptions={{
-        navMenuItems,
-        variant: "light", 
-        logoProps, ctaButtons, utilityHeaderLinks, utilityHeaderIconLinks, signInLinkOptions, signOutLinkOptions, sticky: true,
-        constrainContentWidth: true}} showBreadcrumbs
-        breadcrumbsOptions={{
-          links: [{ children: "Previous Page" }],
-          currentPageLabel: "Current Page",
-          className: "py-2",
-        }}
-    >
-        <br />
-        <br />
-        <FdtrAccordion></FdtrAccordion>
-    </App>
+    <div>Hello App</div>
   );
 }
